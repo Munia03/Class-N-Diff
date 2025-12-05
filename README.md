@@ -26,6 +26,17 @@ torchrun --nnodes=1 --nproc_per_node=N train_label.py --model DiT-L/4 --data-pat
 python generation.py --model DiT-L/4 --image-size 256 --ckpt /path/to/model.pt
 ```
 
+## BibTeX
+
+```bibtex
+@article{munia2025class,
+  title={Class-N-Diff: Classification-Induced Diffusion Model Can Make Fair Skin Cancer Diagnosis},
+  author={Munia, Nusrat and Imran, Abdullah},
+  journal={arXiv preprint arXiv:2510.16887},
+  year={2025}
+}
+```
+
 
 
 
